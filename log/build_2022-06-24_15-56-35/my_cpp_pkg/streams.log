@@ -1,0 +1,42 @@
+[0.011s] Invoking command in '/home/redi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.061s] [35m[1mScanning dependencies of target number_counter[0m
+[0.088s] [ 22%] Built target cpp_node
+[0.089s] [ 22%] Built target add_two_ints_server
+[0.101s] [ 50%] Built target smartphone
+[0.101s] [ 50%] Built target number_publisher
+[0.102s] [ 61%] Built target robot_news_station
+[0.102s] [ 44%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.102s] [ 83%] Built target add_two_ints_client
+[0.102s] [ 72%] Built target add_two_ints_client_no_oop
+[0.123s] [ 94%] Built target hardware_status_publisher
+[5.640s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[5.923s] [100%] Built target number_counter
+[5.935s] Invoked command in '/home/redi/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[5.985s] Invoking command in '/home/redi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/my_cpp_pkg
+[5.994s] -- Install configuration: ""
+[5.995s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.995s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[5.995s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[5.996s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[5.996s] -- Installing: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[5.999s] -- Set runtime path of "/home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[5.999s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[6.000s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[6.000s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[6.001s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[6.001s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[6.001s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[6.001s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[6.002s] -- Installing: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[6.002s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[6.003s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[6.003s] -- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[6.006s] Invoked command in '/home/redi/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/my_cpp_pkg

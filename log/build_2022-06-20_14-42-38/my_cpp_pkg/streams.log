@@ -1,0 +1,59 @@
+[0.039s] Invoking command in '/home/redi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.473s] [35m[1mScanning dependencies of target number_counter[0m
+[0.473s] [ 12%] Built target number_publisher
+[0.473s] [ 25%] Built target cpp_node
+[0.474s] [ 37%] Built target smartphone
+[0.475s] [ 50%] Built target robot_news_station
+[0.476s] [ 62%] Built target add_two_ints_server
+[0.477s] [ 75%] Built target add_two_ints_client
+[0.479s] [ 87%] Built target add_two_ints_client_no_oop
+[0.480s] [ 93%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[2.455s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::receiveCounter(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.455s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:34:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.455s]    34 |     void receiveCounter([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+[2.455s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.455s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::publishCounter(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.455s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:39:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.455s]    39 |     void publishCounter([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+[2.455s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.801s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40[m[K,
+[2.802s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[2.802s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.802s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.802s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.802s]                  from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[2.802s] /opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = example_interfaces::srv::AddTwoInts; CallbackT = std::_Bind<void (NumberCounterNode::*(NumberCounterNode*))()>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<example_interfaces::srv::AddTwoInts> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’:
+[2.802s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = example_interfaces::srv::AddTwoInts; CallbackT = std::_Bind<void (NumberCounterNode::*(NumberCounterNode*))()>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<example_interfaces::srv::AddTwoInts> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[2.803s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:23:70:[m[K   required from here
+[2.803s] [01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::AnyServiceCallback<example_interfaces::srv::AddTwoInts>::set(std::_Bind<void (NumberCounterNode::*(NumberCounterNode*))()>)[m[K’
+[2.803s]    43 |   [01;31m[Kany_service_callback[m[K.set(std::forward<CallbackT>(callback));
+[2.803s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.803s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:28[m[K,
+[2.803s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.803s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.803s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.804s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.804s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.804s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.804s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.804s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.804s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.804s]                  from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[2.804s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = example_interfaces::srv::AddTwoInts][m[K’
+[2.804s]    67 |   void [01;36m[Kset[m[K(CallbackT callback)
+[2.805s]       |        [01;36m[K^~~[m[K
+[2.805s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.805s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[2.805s]    65 |     >::type * = [01;31m[Knullptr[m[K
+[2.805s]       |                 [01;31m[K^~~~~~~[m[K
+[2.805s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = example_interfaces::srv::AddTwoInts][m[K’
+[2.805s]    81 |   void [01;36m[Kset[m[K(CallbackT callback)
+[2.806s]       |        [01;36m[K^~~[m[K
+[2.806s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.806s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[2.806s]    79 |     >::type * = [01;31m[Knullptr[m[K
+[2.806s]       |                 [01;31m[K^~~~~~~[m[K
+[4.960s] make[2]: *** [CMakeFiles/number_counter.dir/build.make:63: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[4.960s] make[1]: *** [CMakeFiles/Makefile2:119: CMakeFiles/number_counter.dir/all] Error 2
+[4.960s] make: *** [Makefile:141: all] Error 2
+[4.964s] Invoked command in '/home/redi/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_cpp_pkg -- -j8 -l8

@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/redi/ros2_ws/build/catch_turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8
+[0.099s] [35m[1mScanning dependencies of target turtle_spawner[0m
+[0.125s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[2.464s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::move()[m[K’:
+[2.464s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:87:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.464s]    87 |           for (int i = 1; [01;35m[Ki < alive_turtles.size()[m[K; i++) {
+[2.464s]       |                           [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.464s] 
+[2.464s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:83:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kclosest_target[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.465s]    83 |         int [01;35m[Kclosest_target[m[K = 0;
+[2.465s]       |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.490s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::catchTurtle(my_robot_interfaces::srv::CatchTurtle_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::CatchTurtle_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.491s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_spawner.cpp:90:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.491s]    90 |         for (int i = 0; [01;35m[Ki < alive_turtles.size()[m[K; i++)
+[2.491s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.938s] [ 75%] [32m[1mLinking CXX executable turtle_spawner[0m
+[8.354s] [ 75%] Built target turtle_spawner
+[13.002s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[13.640s] [100%] Built target turtle_controller
+[13.659s] Invoked command in '/home/redi/ros2_ws/build/catch_turtles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8
+[13.723s] Invoking command in '/home/redi/ros2_ws/build/catch_turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/catch_turtles
+[13.736s] -- Install configuration: ""
+[13.737s] -- Execute custom install script
+[13.738s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/lib/catch_turtles/turtle_spawner
+[13.738s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/lib/catch_turtles/turtle_controller
+[13.739s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/ament_index/resource_index/package_run_dependencies/catch_turtles
+[13.740s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/ament_index/resource_index/parent_prefix_path/catch_turtles
+[13.740s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/ament_prefix_path.sh
+[13.741s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/ament_prefix_path.dsv
+[13.741s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/path.sh
+[13.742s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/path.dsv
+[13.742s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.bash
+[13.743s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.sh
+[13.743s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.zsh
+[13.744s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.dsv
+[13.744s] -- Symlinking: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/package.dsv
+[13.759s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/ament_index/resource_index/packages/catch_turtles
+[13.760s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/cmake/catch_turtlesConfig.cmake
+[13.760s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/cmake/catch_turtlesConfig-version.cmake
+[13.761s] -- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/package.xml
+[13.764s] Invoked command in '/home/redi/ros2_ws/build/catch_turtles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/catch_turtles

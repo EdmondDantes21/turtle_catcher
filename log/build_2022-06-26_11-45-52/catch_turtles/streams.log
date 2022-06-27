@@ -1,0 +1,22 @@
+[0.025s] Invoking command in '/home/redi/ros2_ws/build/catch_turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8
+[0.083s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.450s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.832s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.108s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.308s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.308s]   ament_target_dependencies() the passed package name 'geometry_msgs' was not
+[1.308s]   found before
+[1.308s] Call Stack (most recent call first):
+[1.309s]   CMakeLists.txt:23 (ament_target_dependencies)
+[1.309s] 
+[1.309s] 
+[1.310s] -- Configuring incomplete, errors occurred!
+[1.311s] See also "/home/redi/ros2_ws/build/catch_turtles/CMakeFiles/CMakeOutput.log".
+[1.311s] See also "/home/redi/ros2_ws/build/catch_turtles/CMakeFiles/CMakeError.log".
+[1.318s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.321s] Invoked command in '/home/redi/ros2_ws/build/catch_turtles' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8

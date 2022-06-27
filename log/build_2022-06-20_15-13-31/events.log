@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.001113] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001420] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001469] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.016054] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.034425] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.037525] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.037861] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/redi/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/redi/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'redi'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1746'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/redi'), ('OLDPWD', '/home/redi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17099'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/redi/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'redi'), ('JOURNAL_STREAM', '8:49733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'redi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/redi/uni/is2/mongodb-linux-x86_64-enterprise-ubuntu2004-5.0.8/bin:/opt/ros/foxy/bin:/home/redi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1784,unix/ubuntu:/tmp/.ICE-unix/1784'), ('INVOCATION_ID', 'd351453c21df4ddba95212c2cc0c2e98'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/redi/ros2_ws/install/my_py_pkg:/home/redi/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:068ae0b6-f1f3-47bf-8492-b5beceeab799'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/redi/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/redi/ros2_ws/install/my_cpp_pkg:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.100124] (-) TimerEvent: {}
+[0.200970] (-) TimerEvent: {}
+[0.301384] (-) TimerEvent: {}
+[0.401785] (-) TimerEvent: {}
+[0.469933] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_counter\x1b[0m\n'}
+[0.470915] (my_cpp_pkg) StdoutLine: {'line': b'[ 12%] Built target cpp_node\n'}
+[0.471665] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target smartphone\n'}
+[0.473969] (my_cpp_pkg) StdoutLine: {'line': b'[ 37%] Built target add_two_ints_server\n'}
+[0.474427] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target number_publisher\n'}
+[0.476940] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target add_two_ints_client_no_oop\n'}
+[0.477245] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target robot_news_station\n'}
+[0.477984] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target add_two_ints_client\n'}
+[0.479223] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.501944] (-) TimerEvent: {}
+[0.602424] (-) TimerEvent: {}
+[0.702814] (-) TimerEvent: {}
+[0.803209] (-) TimerEvent: {}
+[0.903608] (-) TimerEvent: {}
+[1.003995] (-) TimerEvent: {}
+[1.104395] (-) TimerEvent: {}
+[1.114511] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/redi/ros2_ws/build/my_py_pkg/build', 'install', '--prefix', '/home/redi/ros2_ws/install/my_py_pkg', '--record', '/home/redi/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/redi/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'redi', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '1746', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/redi', 'OLDPWD': '/home/redi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '1555', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '17099', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/redi/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'redi', 'JOURNAL_STREAM': '8:49733', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'redi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/redi/uni/is2/mongodb-linux-x86_64-enterprise-ubuntu2004-5.0.8/bin:/opt/ros/foxy/bin:/home/redi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1784,unix/ubuntu:/tmp/.ICE-unix/1784', 'INVOCATION_ID': 'd351453c21df4ddba95212c2cc0c2e98', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/redi/ros2_ws/install/my_py_pkg:/home/redi/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:068ae0b6-f1f3-47bf-8492-b5beceeab799', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/redi/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/redi/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[1.204587] (-) TimerEvent: {}
+[1.305082] (-) TimerEvent: {}
+[1.405466] (-) TimerEvent: {}
+[1.480305] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.481260] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.481596] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.481955] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.482264] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.482412] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.505622] (-) TimerEvent: {}
+[1.543457] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.544816] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.545125] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.545402] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.545552] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.546653] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.548807] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.549539] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.552179] (my_py_pkg) StdoutLine: {'line': b"removing '/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.552658] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info\n'}
+[1.554056] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.583129] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/redi/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.605780] (-) TimerEvent: {}
+[1.615028] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.635971] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.705943] (-) TimerEvent: {}
+[1.806342] (-) TimerEvent: {}
+[1.906749] (-) TimerEvent: {}
+[2.007159] (-) TimerEvent: {}
+[2.107567] (-) TimerEvent: {}
+[2.207978] (-) TimerEvent: {}
+[2.308384] (-) TimerEvent: {}
+[2.408788] (-) TimerEvent: {}
+[2.470581] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NumberCounterNode::callBackResetCounter(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.470894] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:49:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.471031] (my_cpp_pkg) StderrLine: {'line': b'   49 |                               \x1b[01;35m\x1b[Kconst example_interfaces::srv::SetBool::Response::SharedPtr response\x1b[m\x1b[K)\n'}
+[2.471153] (my_cpp_pkg) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.508950] (-) TimerEvent: {}
+[2.609352] (-) TimerEvent: {}
+[2.709756] (-) TimerEvent: {}
+[2.810162] (-) TimerEvent: {}
+[2.910559] (-) TimerEvent: {}
+[3.010966] (-) TimerEvent: {}
+[3.111383] (-) TimerEvent: {}
+[3.211791] (-) TimerEvent: {}
+[3.312199] (-) TimerEvent: {}
+[3.412629] (-) TimerEvent: {}
+[3.513043] (-) TimerEvent: {}
+[3.613475] (-) TimerEvent: {}
+[3.713889] (-) TimerEvent: {}
+[3.814296] (-) TimerEvent: {}
+[3.914707] (-) TimerEvent: {}
+[4.015110] (-) TimerEvent: {}
+[4.115514] (-) TimerEvent: {}
+[4.215919] (-) TimerEvent: {}
+[4.316338] (-) TimerEvent: {}
+[4.416757] (-) TimerEvent: {}
+[4.517159] (-) TimerEvent: {}
+[4.617565] (-) TimerEvent: {}
+[4.717984] (-) TimerEvent: {}
+[4.818388] (-) TimerEvent: {}
+[4.918797] (-) TimerEvent: {}
+[5.019219] (-) TimerEvent: {}
+[5.119633] (-) TimerEvent: {}
+[5.220045] (-) TimerEvent: {}
+[5.320464] (-) TimerEvent: {}
+[5.420870] (-) TimerEvent: {}
+[5.521264] (-) TimerEvent: {}
+[5.621659] (-) TimerEvent: {}
+[5.722052] (-) TimerEvent: {}
+[5.822450] (-) TimerEvent: {}
+[5.922836] (-) TimerEvent: {}
+[6.023232] (-) TimerEvent: {}
+[6.123623] (-) TimerEvent: {}
+[6.224019] (-) TimerEvent: {}
+[6.324411] (-) TimerEvent: {}
+[6.424805] (-) TimerEvent: {}
+[6.525197] (-) TimerEvent: {}
+[6.625592] (-) TimerEvent: {}
+[6.725997] (-) TimerEvent: {}
+[6.826385] (-) TimerEvent: {}
+[6.926789] (-) TimerEvent: {}
+[7.027181] (-) TimerEvent: {}
+[7.127570] (-) TimerEvent: {}
+[7.227968] (-) TimerEvent: {}
+[7.328374] (-) TimerEvent: {}
+[7.428789] (-) TimerEvent: {}
+[7.529187] (-) TimerEvent: {}
+[7.629577] (-) TimerEvent: {}
+[7.729970] (-) TimerEvent: {}
+[7.830361] (-) TimerEvent: {}
+[7.930751] (-) TimerEvent: {}
+[8.031144] (-) TimerEvent: {}
+[8.131532] (-) TimerEvent: {}
+[8.231927] (-) TimerEvent: {}
+[8.332358] (-) TimerEvent: {}
+[8.432761] (-) TimerEvent: {}
+[8.533154] (-) TimerEvent: {}
+[8.633553] (-) TimerEvent: {}
+[8.733956] (-) TimerEvent: {}
+[8.834358] (-) TimerEvent: {}
+[8.934765] (-) TimerEvent: {}
+[9.035165] (-) TimerEvent: {}
+[9.135551] (-) TimerEvent: {}
+[9.194660] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[9.235717] (-) TimerEvent: {}
+[9.336128] (-) TimerEvent: {}
+[9.436552] (-) TimerEvent: {}
+[9.536975] (-) TimerEvent: {}
+[9.637327] (-) TimerEvent: {}
+[9.653152] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[9.672181] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[9.733545] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[9.737592] (-) TimerEvent: {}
+[9.753482] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/redi/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/redi/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'redi'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1746'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/redi'), ('OLDPWD', '/home/redi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17099'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/redi/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'redi'), ('JOURNAL_STREAM', '8:49733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'redi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/redi/uni/is2/mongodb-linux-x86_64-enterprise-ubuntu2004-5.0.8/bin:/opt/ros/foxy/bin:/home/redi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1784,unix/ubuntu:/tmp/.ICE-unix/1784'), ('INVOCATION_ID', 'd351453c21df4ddba95212c2cc0c2e98'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/redi/ros2_ws/install/my_py_pkg:/home/redi/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:068ae0b6-f1f3-47bf-8492-b5beceeab799'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/redi/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/redi/ros2_ws/install/my_cpp_pkg:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[9.767822] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.768191] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[9.768909] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[9.769631] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[9.770296] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[9.770960] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[9.774908] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""\n'}
+[9.775262] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[9.775974] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[9.776791] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[9.777217] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[9.777550] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[9.777856] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[9.778079] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[9.778208] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[9.778390] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[9.778572] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[9.778717] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[9.778838] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[9.778953] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[9.779068] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[9.779192] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[9.779309] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[9.779421] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[9.779532] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[9.781502] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[9.837744] (-) TimerEvent: {}
+[9.870650] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[9.871987] (-) EventReactorShutdown: {}

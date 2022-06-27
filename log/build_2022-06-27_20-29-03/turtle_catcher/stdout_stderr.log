@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/redi/ros2_ws/build/turtle_catcher
+[35m[1mScanning dependencies of target turtle_spawner[0m
+[35m[1mScanning dependencies of target turtle_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[01m[K/home/redi/ros2_ws/src/turtle_catcher/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::catchTurtle(my_robot_interfaces::srv::CatchTurtle_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::CatchTurtle_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/redi/ros2_ws/src/turtle_catcher/src/turtle_spawner.cpp:90:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   90 |         for (int i = 0; [01;35m[Ki < alive_turtles.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable turtle_spawner[0m
+[ 75%] Built target turtle_spawner
+[100%] [32m[1mLinking CXX executable turtle_controller[0m
+[100%] Built target turtle_controller
+-- Install configuration: ""
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_spawner
+-- Set runtime path of "/home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_spawner" to ""
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_controller
+-- Set runtime path of "/home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_controller" to ""
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/package_run_dependencies/turtle_catcher
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/parent_prefix_path/turtle_catcher
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/ament_prefix_path.sh
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/ament_prefix_path.dsv
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/path.sh
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/path.dsv
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.bash
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.sh
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.zsh
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.dsv
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/package.dsv
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/packages/turtle_catcher
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/cmake/turtle_catcherConfig.cmake
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/cmake/turtle_catcherConfig-version.cmake
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/package.xml

@@ -1,0 +1,17 @@
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KNumberPublisherNode::robot_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   20 |     std::string [01;35m[Krobot_name[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:19:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint NumberPublisherNode::number[m[K’ [[01;35m[K-Wreorder[m[K]
+   19 |     int [01;35m[Knumber[m[K;
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:8:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    8 |     [01;35m[KNumberPublisherNode[m[K() : Node("number_publisher"), robot_name("R2D2"), number(2)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::callBackResetCounter(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:48:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   48 |     void callBackResetCounter([01;35m[Kconst example_interfaces::srv::SetBool::Request::SharedPtr request[m[K,
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:49:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   49 |                               [01;35m[Kconst example_interfaces::srv::SetBool::Response::SharedPtr response[m[K)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

@@ -1,0 +1,9 @@
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/install/strip.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/install/local.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/install.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/list_install_components.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/rebuild_cache.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/edit_cache.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/test.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/turtle_catcher_bringup_uninstall.dir
+/home/redi/ros2_ws/build/turtle_catcher_bringup/CMakeFiles/uninstall.dir

@@ -1,0 +1,20 @@
+[1.200s] Invoking command in '/home/redi/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/redi/ros2_ws/build/my_py_pkg/build install --prefix /home/redi/ros2_ws/install/my_py_pkg --record /home/redi/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.568s] running egg_info
+[1.569s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.569s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.569s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.570s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.570s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.631s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.632s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.632s] running build
+[1.633s] running build_py
+[1.633s] running install
+[1.634s] running install_lib
+[1.636s] running install_data
+[1.637s] running install_egg_info
+[1.639s] removing '/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.640s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[1.641s] running install_scripts
+[1.671s] writing list of installed files to '/home/redi/ros2_ws/build/my_py_pkg/install.log'
+[1.702s] Invoked command in '/home/redi/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/redi/ros2_ws/build/my_py_pkg/build install --prefix /home/redi/ros2_ws/install/my_py_pkg --record /home/redi/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

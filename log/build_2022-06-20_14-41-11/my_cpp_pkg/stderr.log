@@ -1,0 +1,8 @@
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::receiveCounter(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:34:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 |     void receiveCounter([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::publishCounter(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:39:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   39 |     void publishCounter([01;35m[Kconst std_msgs::msg::Int64::SharedPtr msg[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/msg/detail/alive_turtles__type_support_c.cpp.o"
+  "CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/msg/detail/turtle__type_support_c.cpp.o"
+  "CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/srv/detail/catch_turtle__type_support_c.cpp.o"
+  "libturtle_catcher_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libturtle_catcher_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/msg/detail/alive_turtles__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/msg/detail/alive_turtles__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/msg/detail/turtle__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/turtle_catcher_interfaces/srv/detail/catch_turtle__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

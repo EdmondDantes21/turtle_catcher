@@ -1,0 +1,118 @@
+[0.012s] Invoking command in '/home/redi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.043s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.230s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.272s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.590s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.698s] -- Found my_robot_interfaces: 0.0.0 (/home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.768s] -- Configuring done
+[0.832s] -- Generating done
+[0.835s] -- Build files have been written to: /home/redi/ros2_ws/build/my_cpp_pkg
+[0.869s] [35m[1mScanning dependencies of target LED_node[0m
+[0.894s] [ 18%] Built target cpp_node
+[0.894s] [ 18%] Built target smartphone
+[0.895s] [ 27%] Built target add_two_ints_client
+[0.896s] [ 45%] Built target number_counter
+[0.896s] [ 45%] Built target robot_news_station
+[0.898s] [ 54%] Built target number_publisher
+[0.898s] [ 63%] Built target add_two_ints_client_no_oop
+[0.905s] [ 68%] [32mBuilding CXX object CMakeFiles/LED_node.dir/src/LEDNode.cpp.o[0m
+[0.907s] [35m[1mScanning dependencies of target battery_node[0m
+[0.910s] [35m[1mScanning dependencies of target hardware_status_publisher[0m
+[0.927s] [ 77%] Built target add_two_ints_server
+[0.934s] [ 81%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/batteryNode.cpp.o[0m
+[0.936s] [ 86%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[2.241s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/LEDNode.cpp:[m[K In member function ‘[01m[Kvoid LEDNode::callbackLedSet(std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)[m[K’:
+[2.241s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/LEDNode.cpp:23:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.241s]    23 |     void callbackLedSet([01;35m[Kstd::shared_ptr<my_robot_interfaces::srv::SetLed::Request> request[m[K,
+[2.241s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.241s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/LEDNode.cpp:24:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.241s]    24 |                         [01;35m[Kstd::shared_ptr<my_robot_interfaces::srv::SetLed::Response> response[m[K)
+[2.241s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.278s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::emptyBatteryCallBack()[m[K’:
+[2.279s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:27:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Service<my_robot_interfaces::srv::SetLed>::create_request(std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >&)[m[K’
+[2.279s]    27 |         publisher_->create_request(request[01;31m[K)[m[K;
+[2.279s]       |                                           [01;31m[K^[m[K
+[2.279s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.280s]                  from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:1[m[K:
+[2.281s] [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:321:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<void> rclcpp::Service<ServiceT>::create_request() [with ServiceT = my_robot_interfaces::srv::SetLed][m[K’
+[2.281s]   321 |   [01;36m[Kcreate_request[m[K() override
+[2.281s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.281s] [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:321:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.468s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:32[m[K,
+[2.468s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.470s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.470s]                  from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:1[m[K:
+[2.470s] /opt/ros/foxy/include/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<int>[m[K’:
+[2.470s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:159:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<int, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)> >[m[K’
+[2.470s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<my_robot_interfaces::srv::SetLed>::set<CallbackT, <enumerator> >(CallbackT) [with CallbackT = int; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> = <missing>][m[K’
+[2.470s] [01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K   required from ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_robot_interfaces::srv::SetLed; CallbackT = int; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_robot_interfaces::srv::SetLed> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[2.470s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_robot_interfaces::srv::SetLed; CallbackT = int; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_robot_interfaces::srv::SetLed> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[2.471s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:13:91:[m[K   required from here
+[2.471s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kint[m[K’
+[2.471s]    52 |     typename function_traits<decltype( [01;31m[K&FunctionT::operator()[m[K)>::arguments>::type;
+[2.471s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.471s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kint[m[K’
+[2.471s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kint[m[K’
+[2.471s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40[m[K,
+[2.472s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[2.472s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.472s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.472s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.472s]                  from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:1[m[K:
+[2.472s] /opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_robot_interfaces::srv::SetLed; CallbackT = int; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_robot_interfaces::srv::SetLed> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’:
+[2.472s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_robot_interfaces::srv::SetLed; CallbackT = int; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_robot_interfaces::srv::SetLed> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[2.472s] [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:13:91:[m[K   required from here
+[2.473s] [01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::AnyServiceCallback<my_robot_interfaces::srv::SetLed>::set(int)[m[K’
+[2.473s]    43 |   [01;31m[Kany_service_callback[m[K.set(std::forward<CallbackT>(callback));
+[2.473s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.473s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:28[m[K,
+[2.473s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.473s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.473s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.474s]                  from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/batteryNode.cpp:1[m[K:
+[2.474s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = my_robot_interfaces::srv::SetLed][m[K’
+[2.475s]    67 |   void [01;36m[Kset[m[K(CallbackT callback)
+[2.475s]       |        [01;36m[K^~~[m[K
+[2.475s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.475s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<int, std::function<void(std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)> >[m[K’
+[2.475s]    65 |     >::type * = [01;31m[Knullptr[m[K
+[2.475s]       |                 [01;31m[K^~~~~~~[m[K
+[2.475s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = my_robot_interfaces::srv::SetLed][m[K’
+[2.476s]    81 |   void [01;36m[Kset[m[K(CallbackT callback)
+[2.476s]       |        [01;36m[K^~~[m[K
+[2.476s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[2.748s] make[2]: *** [CMakeFiles/battery_node.dir/build.make:63: CMakeFiles/battery_node.dir/src/batteryNode.cpp.o] Error 1
+[2.748s] make[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/battery_node.dir/all] Error 2
+[2.748s] make[1]: *** Waiting for unfinished jobs....
+[3.202s] [ 90%] [32m[1mLinking CXX executable LED_node[0m
+[3.371s] [ 90%] Built target LED_node
+[4.033s] [ 95%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[4.209s] [ 95%] Built target hardware_status_publisher
+[4.210s] make: *** [Makefile:141: all] Error 2
+[4.212s] Invoked command in '/home/redi/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_cpp_pkg -- -j8 -l8

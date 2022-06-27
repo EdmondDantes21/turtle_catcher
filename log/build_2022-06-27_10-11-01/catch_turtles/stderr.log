@@ -1,0 +1,7 @@
+[01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_spawner.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/alive_turtles.hpp: No such file or directory
+    3 | #include [01;31m[K"my_robot_interfaces/msg/alive_turtles.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:63: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

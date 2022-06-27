@@ -1,0 +1,58 @@
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KNumberPublisherNode::robot_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   20 |     std::string [01;35m[Krobot_name[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:19:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint NumberPublisherNode::number[m[K’ [[01;35m[K-Wreorder[m[K]
+   19 |     int [01;35m[Knumber[m[K;
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:8:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    8 |     [01;35m[KNumberPublisherNode[m[K() : Node("number_publisher"), robot_name("R2D2"), number(2)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::callBackResetCounter(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:48:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   48 |     void callBackResetCounter([01;35m[Kconst example_interfaces::srv::SetBool::Request::SharedPtr request[m[K,
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:49:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   49 |                               [01;35m[Kconst example_interfaces::srv::SetBool::Response::SharedPtr response[m[K)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+/opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = example_interfaces::srv::AddTwoInts; CallbackT = std::_Bind<void (NumberCounterNode::*(NumberCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<example_interfaces::srv::AddTwoInts> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = example_interfaces::srv::AddTwoInts; CallbackT = std::_Bind<void (NumberCounterNode::*(NumberCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<example_interfaces::srv::AddTwoInts> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:24:78:[m[K   required from here
+[01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::AnyServiceCallback<example_interfaces::srv::AddTwoInts>::set(std::_Bind<void (NumberCounterNode::*(NumberCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)>)[m[K’
+   43 |   [01;31m[Kany_service_callback[m[K.set(std::forward<CallbackT>(callback));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = example_interfaces::srv::AddTwoInts][m[K’
+   67 |   void [01;36m[Kset[m[K(CallbackT callback)
+      |        [01;36m[K^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+   65 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = example_interfaces::srv::AddTwoInts][m[K’
+   81 |   void [01;36m[Kset[m[K(CallbackT callback)
+      |        [01;36m[K^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+   79 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/number_counter.dir/build.make:63: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:119: CMakeFiles/number_counter.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

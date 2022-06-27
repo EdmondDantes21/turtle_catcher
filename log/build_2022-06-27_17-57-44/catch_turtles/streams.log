@@ -1,0 +1,17 @@
+[0.027s] Invoking command in '/home/redi/ros2_ws/build/catch_turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8
+[0.102s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.135s] [ 50%] Built target turtle_spawner
+[0.151s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[2.518s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::turtleSpawnCallBack(my_robot_interfaces::msg::AliveTurtles_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.518s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:107:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<my_robot_interfaces::msg::AliveTurtles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kalive_turtles[m[K’
+[2.518s]   107 | ->alive_turtles.push_back(msg.[01;31m[Kalive_turtles[m[K[msg.alive_turtles.size() - 1]);
+[2.518s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.518s] 
+[2.519s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:107:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<my_robot_interfaces::msg::AliveTurtles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kalive_turtles[m[K’
+[2.519s]   107 | sh_back(msg.alive_turtles[msg.[01;31m[Kalive_turtles[m[K.size() - 1]);
+[2.519s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.519s] 
+[5.818s] make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[5.818s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_controller.dir/all] Error 2
+[5.818s] make: *** [Makefile:141: all] Error 2
+[5.821s] Invoked command in '/home/redi/ros2_ws/build/catch_turtles' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8

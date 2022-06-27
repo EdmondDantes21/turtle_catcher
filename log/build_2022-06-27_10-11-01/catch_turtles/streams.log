@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/home/redi/ros2_ws/build/catch_turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target turtle_spawner[0m
+[0.076s] [ 50%] Built target turtle_controller
+[0.081s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[0.177s] [01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_spawner.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/alive_turtles.hpp: No such file or directory
+[0.177s]     3 | #include [01;31m[K"my_robot_interfaces/msg/alive_turtles.hpp"[m[K
+[0.177s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.177s] compilation terminated.
+[0.179s] make[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:63: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+[0.179s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_spawner.dir/all] Error 2
+[0.179s] make: *** [Makefile:141: all] Error 2
+[0.181s] Invoked command in '/home/redi/ros2_ws/build/catch_turtles' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8

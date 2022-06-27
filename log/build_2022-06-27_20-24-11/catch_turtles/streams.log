@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/redi/ros2_ws/build/catch_turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8
+[0.085s] [35m[1mScanning dependencies of target turtle_spawner[0m
+[0.085s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.131s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[1.280s] make[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:63: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Interrupt
+[1.280s] make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Interrupt
+[1.280s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_spawner.dir/all] Interrupt
+[1.280s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_controller.dir/all] Interrupt
+[1.280s] make: *** [Makefile:141: all] Interrupt
+[1.291s] Invoked command in '/home/redi/ros2_ws/build/catch_turtles' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/catch_turtles -- -j8 -l8

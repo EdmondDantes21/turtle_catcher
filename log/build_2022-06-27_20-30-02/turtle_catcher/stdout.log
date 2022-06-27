@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target turtle_spawner[0m
+[ 50%] Built target turtle_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_spawner[0m
+[100%] Built target turtle_spawner
+-- Install configuration: ""
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_spawner
+-- Set runtime path of "/home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_spawner" to ""
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_controller
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/package_run_dependencies/turtle_catcher
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/parent_prefix_path/turtle_catcher
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/path.sh
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/path.dsv
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.bash
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.sh
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.zsh
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.dsv
+-- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/package.dsv
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/packages/turtle_catcher
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/cmake/turtle_catcherConfig.cmake
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/cmake/turtle_catcherConfig-version.cmake
+-- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/package.xml

@@ -1,0 +1,16 @@
+[0.034s] Invoking command in '/home/redi/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[0.161s] [  9%] Built target my_robot_interfaces__rosidl_generator_c
+[0.164s] [ 12%] Built target my_robot_interfaces__cpp
+[0.214s] [ 32%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.215s] [ 32%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.220s] [ 41%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.222s] [ 51%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[0.228s] [ 61%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.269s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.303s] [ 70%] Built target my_robot_interfaces
+[0.339s] [ 74%] Built target my_robot_interfaces__py
+[0.382s] [ 80%] Built target my_robot_interfaces__python
+[0.427s] [ 93%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[0.427s] [ 96%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.427s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.446s] Invoked command in '/home/redi/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_robot_interfaces -- -j8 -l8

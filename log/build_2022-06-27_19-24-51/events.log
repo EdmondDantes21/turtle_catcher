@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000356] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000416] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000457] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000498] (catch_turtles) JobQueued: {'identifier': 'catch_turtles', 'dependencies': OrderedDict()}
+[0.001658] (catch_turtles) JobStarted: {'identifier': 'catch_turtles'}
+[0.022632] (catch_turtles) JobProgress: {'identifier': 'catch_turtles', 'progress': 'cmake'}
+[0.025530] (catch_turtles) JobProgress: {'identifier': 'catch_turtles', 'progress': 'build'}
+[0.025621] (catch_turtles) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/redi/ros2_ws/build/catch_turtles', '--', '-j8', '-l8'], 'cwd': '/home/redi/ros2_ws/build/catch_turtles', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'redi'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/redi/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/redi'), ('OLDPWD', '/home/redi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1527'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6784'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/redi/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'redi'), ('JOURNAL_STREAM', '8:50406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'redi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/redi/uni/is2/mongodb-linux-x86_64-enterprise-ubuntu2004-5.0.8/bin:/home/redi/ros2_ws/install/catch_turtles/bin:/opt/ros/foxy/bin:/home/redi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1764,unix/ubuntu:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', 'bbd6789b42e145e38f4af825014e651c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/redi/ros2_ws/install/my_robot_bringup:/home/redi/ros2_ws/install/my_cpp_pkg:/home/redi/ros2_ws/install/my_robot_interfaces:/home/redi/ros2_ws/install/my_py_pkg:/home/redi/ros2_ws/install/catch_turtles:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:94b1a0d0-20c8-49be-81b4-c423b480a3b5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/redi/ros2_ws/build/catch_turtles'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/redi/ros2_ws/install/my_robot_bringup:/home/redi/ros2_ws/install/my_cpp_pkg:/home/redi/ros2_ws/install/my_robot_interfaces:/home/redi/ros2_ws/install/catch_turtles:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099680] (-) TimerEvent: {}
+[0.106048] (catch_turtles) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_controller\x1b[0m\n'}
+[0.141233] (catch_turtles) StdoutLine: {'line': b'[ 50%] Built target turtle_spawner\n'}
+[0.155019] (catch_turtles) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[0.199808] (-) TimerEvent: {}
+[0.300227] (-) TimerEvent: {}
+[0.400641] (-) TimerEvent: {}
+[0.501043] (-) TimerEvent: {}
+[0.601451] (-) TimerEvent: {}
+[0.701853] (-) TimerEvent: {}
+[0.802225] (-) TimerEvent: {}
+[0.902594] (-) TimerEvent: {}
+[1.002982] (-) TimerEvent: {}
+[1.103355] (-) TimerEvent: {}
+[1.203826] (-) TimerEvent: {}
+[1.304181] (-) TimerEvent: {}
+[1.404589] (-) TimerEvent: {}
+[1.504985] (-) TimerEvent: {}
+[1.605359] (-) TimerEvent: {}
+[1.705758] (-) TimerEvent: {}
+[1.806135] (-) TimerEvent: {}
+[1.906540] (-) TimerEvent: {}
+[2.006912] (-) TimerEvent: {}
+[2.107264] (-) TimerEvent: {}
+[2.207658] (-) TimerEvent: {}
+[2.308175] (-) TimerEvent: {}
+[2.408591] (-) TimerEvent: {}
+[2.508994] (-) TimerEvent: {}
+[2.609347] (-) TimerEvent: {}
+[2.709758] (-) TimerEvent: {}
+[2.810192] (-) TimerEvent: {}
+[2.910544] (-) TimerEvent: {}
+[3.010946] (-) TimerEvent: {}
+[3.111312] (-) TimerEvent: {}
+[3.211708] (-) TimerEvent: {}
+[3.312080] (-) TimerEvent: {}
+[3.412648] (-) TimerEvent: {}
+[3.513046] (-) TimerEvent: {}
+[3.613412] (-) TimerEvent: {}
+[3.713809] (-) TimerEvent: {}
+[3.814193] (-) TimerEvent: {}
+[3.914574] (-) TimerEvent: {}
+[4.014969] (-) TimerEvent: {}
+[4.115431] (-) TimerEvent: {}
+[4.215833] (-) TimerEvent: {}
+[4.316219] (-) TimerEvent: {}
+[4.416611] (-) TimerEvent: {}
+[4.517016] (-) TimerEvent: {}
+[4.617423] (-) TimerEvent: {}
+[4.717826] (-) TimerEvent: {}
+[4.818204] (-) TimerEvent: {}
+[4.918612] (-) TimerEvent: {}
+[5.019015] (-) TimerEvent: {}
+[5.119440] (-) TimerEvent: {}
+[5.219868] (-) TimerEvent: {}
+[5.320233] (-) TimerEvent: {}
+[5.420623] (-) TimerEvent: {}
+[5.521030] (-) TimerEvent: {}
+[5.621406] (-) TimerEvent: {}
+[5.721803] (-) TimerEvent: {}
+[5.822201] (-) TimerEvent: {}
+[5.922616] (-) TimerEvent: {}
+[6.023020] (-) TimerEvent: {}
+[6.123383] (-) TimerEvent: {}
+[6.223846] (-) TimerEvent: {}
+[6.324266] (-) TimerEvent: {}
+[6.424675] (-) TimerEvent: {}
+[6.525066] (-) TimerEvent: {}
+[6.625464] (-) TimerEvent: {}
+[6.725875] (-) TimerEvent: {}
+[6.826236] (-) TimerEvent: {}
+[6.926624] (-) TimerEvent: {}
+[7.027007] (-) TimerEvent: {}
+[7.127434] (-) TimerEvent: {}
+[7.227793] (-) TimerEvent: {}
+[7.328179] (-) TimerEvent: {}
+[7.428593] (-) TimerEvent: {}
+[7.528996] (-) TimerEvent: {}
+[7.629368] (-) TimerEvent: {}
+[7.729758] (-) TimerEvent: {}
+[7.830156] (-) TimerEvent: {}
+[7.930548] (-) TimerEvent: {}
+[8.030942] (-) TimerEvent: {}
+[8.131314] (-) TimerEvent: {}
+[8.231705] (-) TimerEvent: {}
+[8.332128] (-) TimerEvent: {}
+[8.432487] (-) TimerEvent: {}
+[8.533002] (-) TimerEvent: {}
+[8.633445] (-) TimerEvent: {}
+[8.733888] (-) TimerEvent: {}
+[8.834284] (-) TimerEvent: {}
+[8.934690] (-) TimerEvent: {}
+[9.035086] (-) TimerEvent: {}
+[9.135482] (-) TimerEvent: {}
+[9.235938] (-) TimerEvent: {}
+[9.336330] (-) TimerEvent: {}
+[9.436723] (-) TimerEvent: {}
+[9.537078] (-) TimerEvent: {}
+[9.637445] (-) TimerEvent: {}
+[9.737858] (-) TimerEvent: {}
+[9.838265] (-) TimerEvent: {}
+[9.938678] (-) TimerEvent: {}
+[10.039069] (-) TimerEvent: {}
+[10.139411] (-) TimerEvent: {}
+[10.239833] (-) TimerEvent: {}
+[10.340268] (-) TimerEvent: {}
+[10.440715] (-) TimerEvent: {}
+[10.541140] (-) TimerEvent: {}
+[10.641523] (-) TimerEvent: {}
+[10.741913] (-) TimerEvent: {}
+[10.842310] (-) TimerEvent: {}
+[10.942694] (-) TimerEvent: {}
+[11.043123] (-) TimerEvent: {}
+[11.143538] (-) TimerEvent: {}
+[11.243929] (-) TimerEvent: {}
+[11.344293] (-) TimerEvent: {}
+[11.444684] (-) TimerEvent: {}
+[11.545081] (-) TimerEvent: {}
+[11.645475] (-) TimerEvent: {}
+[11.745864] (-) TimerEvent: {}
+[11.846255] (-) TimerEvent: {}
+[11.946644] (-) TimerEvent: {}
+[12.047039] (-) TimerEvent: {}
+[12.147451] (-) TimerEvent: {}
+[12.247845] (-) TimerEvent: {}
+[12.348238] (-) TimerEvent: {}
+[12.448635] (-) TimerEvent: {}
+[12.572261] (-) TimerEvent: {}
+[12.672663] (-) TimerEvent: {}
+[12.773111] (-) TimerEvent: {}
+[12.873503] (-) TimerEvent: {}
+[12.973905] (-) TimerEvent: {}
+[13.074327] (-) TimerEvent: {}
+[13.174693] (-) TimerEvent: {}
+[13.275108] (-) TimerEvent: {}
+[13.375460] (-) TimerEvent: {}
+[13.475873] (-) TimerEvent: {}
+[13.576236] (-) TimerEvent: {}
+[13.646443] (catch_turtles) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[13.676350] (-) TimerEvent: {}
+[13.776755] (-) TimerEvent: {}
+[13.877131] (-) TimerEvent: {}
+[13.977495] (-) TimerEvent: {}
+[14.077916] (-) TimerEvent: {}
+[14.178293] (-) TimerEvent: {}
+[14.278706] (-) TimerEvent: {}
+[14.305941] (catch_turtles) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[14.327683] (catch_turtles) CommandEnded: {'returncode': 0}
+[14.369460] (catch_turtles) JobProgress: {'identifier': 'catch_turtles', 'progress': 'install'}
+[14.378926] (-) TimerEvent: {}
+[14.390406] (catch_turtles) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/redi/ros2_ws/build/catch_turtles'], 'cwd': '/home/redi/ros2_ws/build/catch_turtles', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'redi'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/redi/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/redi'), ('OLDPWD', '/home/redi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1527'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6784'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/redi/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'redi'), ('JOURNAL_STREAM', '8:50406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'redi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/redi/uni/is2/mongodb-linux-x86_64-enterprise-ubuntu2004-5.0.8/bin:/home/redi/ros2_ws/install/catch_turtles/bin:/opt/ros/foxy/bin:/home/redi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1764,unix/ubuntu:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', 'bbd6789b42e145e38f4af825014e651c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/redi/ros2_ws/install/my_robot_bringup:/home/redi/ros2_ws/install/my_cpp_pkg:/home/redi/ros2_ws/install/my_robot_interfaces:/home/redi/ros2_ws/install/my_py_pkg:/home/redi/ros2_ws/install/catch_turtles:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:94b1a0d0-20c8-49be-81b4-c423b480a3b5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/redi/ros2_ws/build/catch_turtles'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/redi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/redi/ros2_ws/install/my_robot_bringup:/home/redi/ros2_ws/install/my_cpp_pkg:/home/redi/ros2_ws/install/my_robot_interfaces:/home/redi/ros2_ws/install/catch_turtles:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[14.404677] (catch_turtles) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.405451] (catch_turtles) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.406244] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/lib/catch_turtles/turtle_spawner\n'}
+[14.406665] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/lib/catch_turtles/turtle_controller\n'}
+[14.407343] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/ament_index/resource_index/package_run_dependencies/catch_turtles\n'}
+[14.407815] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/ament_index/resource_index/parent_prefix_path/catch_turtles\n'}
+[14.408255] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/ament_prefix_path.sh\n'}
+[14.408773] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/ament_prefix_path.dsv\n'}
+[14.409206] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/path.sh\n'}
+[14.409719] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/environment/path.dsv\n'}
+[14.410172] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.bash\n'}
+[14.410670] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.sh\n'}
+[14.411099] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.zsh\n'}
+[14.411613] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/local_setup.dsv\n'}
+[14.412004] (catch_turtles) StdoutLine: {'line': b'-- Symlinking: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/package.dsv\n'}
+[14.428852] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/ament_index/resource_index/packages/catch_turtles\n'}
+[14.429450] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/cmake/catch_turtlesConfig.cmake\n'}
+[14.429887] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/cmake/catch_turtlesConfig-version.cmake\n'}
+[14.430546] (catch_turtles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/redi/ros2_ws/install/catch_turtles/share/catch_turtles/package.xml\n'}
+[14.434746] (catch_turtles) CommandEnded: {'returncode': 0}
+[14.479128] (-) TimerEvent: {}
+[14.528132] (catch_turtles) JobEnded: {'identifier': 'catch_turtles', 'rc': 0}
+[14.529405] (-) EventReactorShutdown: {}

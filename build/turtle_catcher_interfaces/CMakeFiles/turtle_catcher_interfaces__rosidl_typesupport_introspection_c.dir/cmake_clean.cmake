@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_catcher_interfaces/msg/detail/alive_turtles__type_support.c.o"
+  "CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_catcher_interfaces/msg/detail/turtle__type_support.c.o"
+  "CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_catcher_interfaces/srv/detail/catch_turtle__type_support.c.o"
+  "libturtle_catcher_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libturtle_catcher_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/turtle_catcher_interfaces/msg/detail/alive_turtles__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_catcher_interfaces/msg/detail/alive_turtles__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_catcher_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_catcher_interfaces/msg/detail/turtle__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_catcher_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_catcher_interfaces/srv/detail/catch_turtle__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/turtle_catcher_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

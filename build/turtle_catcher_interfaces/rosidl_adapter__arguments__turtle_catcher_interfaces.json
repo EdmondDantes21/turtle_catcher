@@ -1,0 +1,8 @@
+{
+  "package_name": "turtle_catcher_interfaces",
+  "non_idl_tuples": [
+    "/home/redi/ros2_ws/src/turtle_catcher_interfaces:msg/Turtle.msg",
+    "/home/redi/ros2_ws/src/turtle_catcher_interfaces:msg/AliveTurtles.msg",
+    "/home/redi/ros2_ws/src/turtle_catcher_interfaces:srv/CatchTurtle.srv"
+  ]
+}

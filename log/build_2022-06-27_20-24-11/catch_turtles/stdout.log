@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target turtle_spawner[0m
+[35m[1mScanning dependencies of target turtle_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m

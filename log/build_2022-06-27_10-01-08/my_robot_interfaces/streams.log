@@ -1,0 +1,342 @@
+[0.048s] Invoking command in '/home/redi/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[0.110s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.152s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.152s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.478s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.836s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.097s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.330s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.331s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.373s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.373s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.373s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.419s] -- Configuring done
+[1.509s] -- Generating done
+[1.514s] -- Build files have been written to: /home/redi/ros2_ws/build/my_robot_interfaces
+[1.556s] [35m[1mScanning dependencies of target my_robot_interfaces__cpp[0m
+[1.557s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.574s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.438s] [  2%] Built target my_robot_interfaces__cpp
+[2.464s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.466s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.476s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[2.477s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.506s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__functions.c.o[0m
+[2.506s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o[0m
+[2.506s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/alive_turtles__functions.c.o[0m
+[2.506s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.o[0m
+[2.507s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[2.618s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o[0m
+[2.693s] [ 16%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[2.754s] [ 16%] Built target my_robot_interfaces__rosidl_generator_c
+[2.774s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.779s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.096s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_cpp[0m
+[3.127s] [ 21%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.127s] [ 22%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle__type_support.cpp.o[0m
+[3.129s] [ 23%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.o[0m
+[3.130s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/alive_turtles__type_support.cpp.o[0m
+[3.597s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.622s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.629s] [ 26%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[3.646s] [ 28%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[3.673s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c[0m
+[3.694s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.741s] [ 30%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.o[0m
+[3.754s] [ 32%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.o[0m
+[3.757s] [ 33%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp.o[0m
+[3.774s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[3.786s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c[0m
+[3.787s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/alive_turtles__type_support.cpp.o[0m
+[3.795s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[3.805s] [ 39%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/alive_turtles__type_support.cpp.o[0m
+[3.808s] [ 40%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[3.888s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[3.893s] [ 43%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o[0m
+[3.970s] [ 45%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o[0m
+[3.975s] [ 46%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o[0m
+[4.017s] [ 47%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[4.025s] [ 49%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/alive_turtles__type_support.c.o[0m
+[4.114s] [ 50%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o[0m
+[4.115s] [ 50%] Built target my_robot_interfaces__rosidl_typesupport_c
+[4.130s] [ 52%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o[0m
+[4.172s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o[0m
+[4.194s] [ 54%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.244s] [ 54%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[4.259s] [ 56%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o[0m
+[4.278s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.o[0m
+[4.422s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[4.447s] [ 60%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/alive_turtles__type_support.cpp.o[0m
+[4.590s] [ 61%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o[0m
+[4.613s] [ 63%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o[0m
+[4.670s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[4.672s] [ 66%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o[0m
+[4.761s] [ 66%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[5.104s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.183s] [ 67%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[5.216s] [ 69%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.311s] [ 69%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.325s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.094s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[6.127s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.o[0m
+[6.131s] [ 73%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o[0m
+[6.131s] [ 76%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[6.131s] [ 76%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[6.132s] [ 77%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/alive_turtles__type_support_c.cpp.o[0m
+[6.134s] [ 78%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o[0m
+[7.093s] [ 80%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.235s] [ 80%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[7.269s] [ 80%] Built target my_robot_interfaces
+[7.286s] [35m[1mScanning dependencies of target my_robot_interfaces__py[0m
+[7.304s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.892s] [ 81%] Built target my_robot_interfaces__py
+[8.913s] [35m[1mScanning dependencies of target my_robot_interfaces__python[0m
+[8.958s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_s.c.o[0m
+[8.961s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_alive_turtles_s.c.o[0m
+[8.962s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.o[0m
+[8.962s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[8.965s] [ 88%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o[0m
+[8.965s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o[0m
+[9.208s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__python.so[0m
+[9.276s] [ 91%] Built target my_robot_interfaces__python
+[9.295s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.296s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext[0m
+[9.296s] [35m[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[9.325s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.328s] [ 94%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.329s] [ 95%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.503s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.504s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.509s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.563s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.563s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[9.620s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.639s] Invoked command in '/home/redi/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[9.850s] Invoking command in '/home/redi/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/my_robot_interfaces
+[9.865s] -- Install configuration: ""
+[9.865s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[9.866s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[9.866s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[9.866s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[9.866s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__type_support.h
+[9.866s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__functions.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__functions.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__functions.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__struct.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__struct.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.h
+[9.867s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[9.868s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__functions.c
+[9.868s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[9.868s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.h
+[9.868s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__type_support.h
+[9.868s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__functions.c
+[9.868s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[9.869s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__functions.c
+[9.869s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.h
+[9.869s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h
+[9.869s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.869s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle.h
+[9.869s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/alive_turtles.h
+[9.869s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[9.870s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[9.870s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[9.870s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[9.870s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+[9.870s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.h
+[9.870s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.h
+[9.870s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.c
+[9.871s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[9.871s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.h
+[9.871s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h
+[9.871s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.h
+[9.871s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[9.871s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[9.872s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[9.872s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[9.873s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[9.873s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[9.873s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[9.873s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h
+[9.873s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__rosidl_typesupport_fastrtps_c.h
+[9.873s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[9.874s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[9.874s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.874s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[9.874s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[9.874s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[9.874s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[9.875s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.875s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.876s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[9.876s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[9.876s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.876s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[9.876s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/dds_fastrtps
+[9.876s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[9.877s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.877s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp
+[9.877s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__rosidl_typesupport_fastrtps_cpp.hpp
+[9.877s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[9.877s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[9.877s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[9.877s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/dds_fastrtps
+[9.877s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[9.878s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.879s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.879s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[9.879s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[9.879s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[9.880s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h
+[9.880s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__rosidl_typesupport_introspection_c.h
+[9.880s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__type_support.c
+[9.880s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[9.880s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.c
+[9.880s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[9.881s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[9.881s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__type_support.c
+[9.881s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.881s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[9.881s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[9.881s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[9.881s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[9.881s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.c
+[9.882s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[9.882s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[9.883s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.884s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[9.884s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[9.885s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[9.885s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[9.885s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/alive_turtles.hpp
+[9.885s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.hpp
+[9.885s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[9.885s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[9.886s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__traits.hpp
+[9.886s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__traits.hpp
+[9.886s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[9.886s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.hpp
+[9.886s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__builder.hpp
+[9.886s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__traits.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__struct.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__builder.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__builder.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__struct.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/turtle.hpp
+[9.887s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp
+[9.888s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[9.888s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[9.888s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.hpp
+[9.888s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[9.888s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__builder.hpp
+[9.888s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__traits.hpp
+[9.888s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[9.889s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[9.889s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.hpp
+[9.889s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[9.889s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces
+[9.889s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg
+[9.889s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+[9.889s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.cpp
+[9.890s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[9.890s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp
+[9.890s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__type_support.cpp
+[9.890s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[9.890s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/alive_turtles__rosidl_typesupport_introspection_cpp.hpp
+[9.890s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__type_support.cpp
+[9.891s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[9.891s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv
+[9.891s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+[9.891s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[9.891s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[9.891s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.cpp
+[9.891s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[9.892s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.893s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.893s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[9.894s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.894s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[9.895s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[9.895s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py
+[9.949s] Compiling '/home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py'...
+[9.955s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg
+[9.956s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py
+[9.956s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[9.956s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_turtle.py
+[9.957s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_alive_turtles_s.c
+[9.957s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_states_s.c
+[9.957s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_states.py
+[9.957s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_alive_turtles.py
+[9.957s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[9.957s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_turtle_s.c
+[9.958s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv
+[9.958s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py
+[9.958s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led.py
+[9.958s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led_s.c
+[9.958s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+[9.958s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[9.959s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.960s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.961s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.962s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.963s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.964s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.965s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so
+[9.966s] -- Set runtime path of "/home/redi/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so" to ""
+[9.966s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[9.966s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.idl
+[9.966s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.idl
+[9.967s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/AliveTurtles.idl
+[9.967s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[9.967s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl
+[9.968s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[9.968s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.msg
+[9.968s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.msg
+[9.968s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/AliveTurtles.msg
+[9.968s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[9.968s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg
+[9.969s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg
+[9.969s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv
+[9.969s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg
+[9.969s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg
+[9.969s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[9.969s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[9.969s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[9.969s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[9.970s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[9.970s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[9.970s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[9.970s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[9.970s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[9.970s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[9.970s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[9.971s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[9.971s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake
+[9.971s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.972s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.972s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.972s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[9.973s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.973s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake
+[9.974s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.974s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.974s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[9.975s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.975s] -- Installing: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.975s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.975s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[9.976s] -- Up-to-date: /home/redi/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[9.979s] Invoked command in '/home/redi/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/my_robot_interfaces

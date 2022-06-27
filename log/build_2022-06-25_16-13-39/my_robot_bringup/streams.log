@@ -1,0 +1,45 @@
+[0.024s] Invoking command in '/home/redi/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/redi/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/redi/ros2_ws/install/my_robot_bringup
+[0.221s] -- The C compiler identification is GNU 9.4.0
+[0.320s] -- The CXX compiler identification is GNU 9.4.0
+[0.332s] -- Check for working C compiler: /usr/bin/cc
+[0.449s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.451s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.589s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.595s] -- Check for working CXX compiler: /usr/bin/c++
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.734s] -- Detecting CXX compiler ABI info
+[0.873s] -- Detecting CXX compiler ABI info - done
+[0.895s] -- Detecting CXX compile features
+[0.896s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.951s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.951s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.420s] -- Configuring done
+[1.423s] -- Generating done
+[1.424s] -- Build files have been written to: /home/redi/ros2_ws/build/my_robot_bringup
+[1.429s] Invoked command in '/home/redi/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/redi/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/redi/ros2_ws/install/my_robot_bringup
+[1.435s] Invoking command in '/home/redi/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[1.498s] Invoked command in '/home/redi/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[1.553s] Invoking command in '/home/redi/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/my_robot_bringup
+[1.566s] -- Install configuration: ""
+[1.567s] -- Execute custom install script
+[1.568s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+[1.583s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.599s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.614s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.629s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.645s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.660s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.675s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.690s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.705s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.720s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.736s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.751s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.766s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.781s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.796s] -- Symlinking: /home/redi/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.814s] Invoked command in '/home/redi/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/my_robot_bringup

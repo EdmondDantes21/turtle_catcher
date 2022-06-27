@@ -1,0 +1,32 @@
+[0.023s] Invoking command in '/home/redi/ros2_ws/build/turtle_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/turtle_catcher -- -j8 -l8
+[0.100s] [35m[1mScanning dependencies of target turtle_spawner[0m
+[0.100s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[8.018s] [ 75%] [32m[1mLinking CXX executable turtle_spawner[0m
+[8.434s] [ 75%] Built target turtle_spawner
+[13.028s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[13.671s] [100%] Built target turtle_controller
+[13.692s] Invoked command in '/home/redi/ros2_ws/build/turtle_catcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/redi/ros2_ws/build/turtle_catcher -- -j8 -l8
+[13.755s] Invoking command in '/home/redi/ros2_ws/build/turtle_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/turtle_catcher
+[13.768s] -- Install configuration: ""
+[13.769s] -- Installing: /home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_spawner
+[13.772s] -- Set runtime path of "/home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_spawner" to ""
+[13.772s] -- Installing: /home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_controller
+[13.778s] -- Set runtime path of "/home/redi/ros2_ws/install/turtle_catcher/lib/turtle_catcher/turtle_controller" to ""
+[13.779s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/package_run_dependencies/turtle_catcher
+[13.779s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/parent_prefix_path/turtle_catcher
+[13.779s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/ament_prefix_path.sh
+[13.779s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/ament_prefix_path.dsv
+[13.779s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/path.sh
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/environment/path.dsv
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.bash
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.sh
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.zsh
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/local_setup.dsv
+[13.780s] -- Installing: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/package.dsv
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/ament_index/resource_index/packages/turtle_catcher
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/cmake/turtle_catcherConfig.cmake
+[13.780s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/cmake/turtle_catcherConfig-version.cmake
+[13.781s] -- Up-to-date: /home/redi/ros2_ws/install/turtle_catcher/share/turtle_catcher/package.xml
+[13.785s] Invoked command in '/home/redi/ros2_ws/build/turtle_catcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/redi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/redi/ros2_ws/build/turtle_catcher

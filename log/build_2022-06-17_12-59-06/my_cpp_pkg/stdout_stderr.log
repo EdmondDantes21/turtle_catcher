@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target number_publisher[0m
+[ 25%] Built target cpp_node
+[ 50%] Built target smartphone
+[ 75%] Built target robot_news_station
+[ 87%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:18:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KNumberPublisherNode::robot_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   18 |     std::string [01;35m[Krobot_name[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:17:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint NumberPublisherNode::counter[m[K’ [[01;35m[K-Wreorder[m[K]
+   17 |     int [01;35m[Kcounter[m[K;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:7:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    7 |     [01;35m[KNumberPublisherNode[m[K() : Node("number_publisher"), robot_name("R2D2"), counter(0)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable number_publisher[0m
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+-- Installing: /home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+-- Set runtime path of "/home/redi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/redi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

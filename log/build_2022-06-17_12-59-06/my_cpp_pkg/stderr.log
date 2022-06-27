@@ -1,0 +1,10 @@
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:18:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KNumberPublisherNode::robot_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   18 |     std::string [01;35m[Krobot_name[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:17:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint NumberPublisherNode::counter[m[K’ [[01;35m[K-Wreorder[m[K]
+   17 |     int [01;35m[Kcounter[m[K;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:7:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    7 |     [01;35m[KNumberPublisherNode[m[K() : Node("number_publisher"), robot_name("R2D2"), counter(0)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K

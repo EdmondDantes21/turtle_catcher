@@ -1,0 +1,11 @@
+[01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::reachTarget(float, float)[m[K’:
+[01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:66:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kdo[m[K’
+   66 |         float tmp = sqrt[32m[K([m[K((this->x - x) * (this->x - x)) + ((this->y - y) * (this->y - y))
+      |                         [32m[K~[m[K                                                                 [01;31m[K^[m[K
+      |                                                                                           [32m[K)[m[K
+[01m[K/home/redi/ros2_ws/src/catch_turtles/src/turtle_controller.cpp:66:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   66 |         float [01;35m[Ktmp[m[K = sqrt(((this->x - x) * (this->x - x)) + ((this->y - y) * (this->y - y))
+      |               [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
