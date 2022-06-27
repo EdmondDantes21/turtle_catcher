@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target turtle_controller[0m
-[ 50%] Built target turtle_spawner
-[ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
-make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_controller.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

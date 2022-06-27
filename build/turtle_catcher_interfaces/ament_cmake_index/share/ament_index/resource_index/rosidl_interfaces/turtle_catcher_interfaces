@@ -1,8 +1,0 @@
-msg/AliveTurtles.idl
-msg/AliveTurtles.msg
-msg/Turtle.idl
-msg/Turtle.msg
-srv/CatchTurtle.idl
-srv/CatchTurtle.srv
-srv/CatchTurtle_Request.msg
-srv/CatchTurtle_Response.msg

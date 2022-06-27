@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target number_counter[0m
-[ 25%] Built target cpp_node
-[ 25%] Built target smartphone
-[ 37%] Built target robot_news_station
-[ 50%] Built target number_publisher
-[ 62%] Built target add_two_ints_client
-[ 68%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
-[ 81%] Built target add_two_ints_server
-[ 93%] Built target add_two_ints_client_no_oop

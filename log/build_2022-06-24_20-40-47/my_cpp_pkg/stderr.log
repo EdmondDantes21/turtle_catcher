@@ -1,4 +1,0 @@
-[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/LEDNode.cpp:[m[K In member function ‘[01m[Kvoid LEDNode::publishLEDPanelState()[m[K’:
-[01m[K/home/redi/ros2_ws/src/my_cpp_pkg/src/LEDNode.cpp:40:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmsg[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   40 |         auto [01;35m[Kmsg[m[K = my_robot_interfaces::msg::LedStates();
-      |              [01;35m[K^~~[m[K

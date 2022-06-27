@@ -1,1 +1,0 @@
-Turtle[] alive_turtles
